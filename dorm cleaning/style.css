@@ -1,0 +1,85 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    background-color: seagreen;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    box-shadow:0 8px 20px rgba(3,0,3);
+    font-weight: 30;
+}
+.nav >h1{
+    text-align: center;
+}
+.dark{
+    display: inline-flex;
+    justify-content: right;
+    align-items: flex-end;
+    
+}
+.des{
+    
+    background-color: cadetblue;
+    border-radius:20px ;
+    text-align: center;
+    padding: 100px 50px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.dark-btn{
+    font-family: 'Google sans',sans-serif ;
+    font-size: 13px;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    display: inline-block;
+
+}
+.dark-btn:hover{
+    background-color: rgb(84, 84, 84);
+
+}
+.btn{
+    background-color: green;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+   font-family: 'Google sans',sans-serif ;
+    height: auto;
+   flex: 0 0 auto;
+   align-self: flex-start;
+}
+.btn:hover{
+    background-color: seagreen;
+
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+
+}
+.dark-mode .nav{
+    background-color: gray;
+}
+.dark-mode .des{
+   background-color: gray;
+}
+
+.dark-mode .btn{
+    background-color: black;
+}
+.dark-mode .btn:hover{
+    background-color: rgb(39, 39, 39);
+}
+
+
+

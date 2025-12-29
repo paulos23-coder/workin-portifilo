@@ -60,16 +60,17 @@ nav ul a{
 
 }
 
-.expertise +p{
+#Service > h2{
     text-align: center;
 }
+
 nav > h2{
     color: rgb(110, 106, 106);
 }
 .btn{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform:uppercase;
     background-color: #3B82F6;
     padding: 15px 20px;
     border: none;
@@ -97,21 +98,24 @@ nav > h2{
   font-family: 'Sacramento', cursive;
 }
 .name-container h2{
-   
+
+   padding-top: 60px;
   color: rgb(62, 60, 60);
 }
 .hig{
     color:rgb(69, 69, 69);
 }
 .picture{
-    max-width: 300px;
-    border-radius: 4px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
     
 }
 
 .text{
     display: flex;
     flex-direction: column;
+    padding-bottom: 60px;
     
 }
 .btn + h2{
@@ -157,8 +161,10 @@ transition: all 0.3s ease;
         display: flex;
         
         flex-direction: column;
+        flex-wrap: wrap;
         
-        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 0;
     }
     .picture{
         display: none;

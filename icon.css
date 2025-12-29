@@ -1,0 +1,6 @@
+i.bx {
+    font-size: 60px;   /* makes it big enough to see */
+    color: #4a90e2;    /* nice blue color */
+    display: block;    /* ensures it sits on its own line */
+    margin: 20px 0;    /* space around it */
+}
