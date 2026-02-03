@@ -88,7 +88,7 @@ nav > h2{
     justify-content: space-between;
     align-items: center;
     
-    background-color:rgba(208, 201, 201, 0.655);
+    background-color:#ffffff;
     width: 100%;    
 }
 .my{
@@ -169,28 +169,46 @@ transition: all 0.3s ease;
     .picture{
         display: none;
     }
+    .circle-grid{
+        display: grid;
+        height: 100px;
+        padding-top: 100px;
+    }
 
 }
-.circle-progress{
-     background: conic-gradient(var(--color) calc(var(--percentage) * 1%), #eee 0%);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    text-align: center;
-    --percentage:0;
-    display: flex;
-    margin: 20px;
-
-    
-
-
-}
-.circle-progress::before{
-    content: attr(data-percentage) '%';
-    position: absolute;
-    font-size: 1.5rem;
-}
-.circle-container{
+.skills-container{
     display: grid;
-
+    grid-template-columns:1fr 1.2fr;
+    gap: 60px;
+    background-color:#ffffff;
+}
+.circle-box{
+    background-color: #c5d7eb;
+    border-radius: 12px;
+    
+}
+.circle-box:hover{
+    transform: translateY(-3px);
+    transition: all 0.4s ease-in;
+}
+.circle-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.2fr 1.2fr;
+    gap: 20px;
+    
+}
+.circles{
+  
+    text-align: center;
+}
+.sub-topics{
+    text-align: center;
+    color:#2563EB ;
+}
+#Skills +h3 + h1{
+    text-align: center;
+}
+.sub-topics + h1{
+    text-align: center;
 }
