@@ -81,7 +81,7 @@ nav > h2{
 }
 .btn:hover{
     background-color: #2563EB;
-    transform: translateY(-2px);
+    
 }
 .name-container{
     display: flex;
@@ -228,4 +228,13 @@ transition: all 0.3s ease;
 animation: appear 5s linear;
 animation-timeline: view();
 animation-range: entry 0;
+}
+.nav-2{
+    display: flex;
+    text-decoration: none;
+    
+}
+.nav-2 ul a{
+    list-style: none;
+    text-decoration: none;
 }
